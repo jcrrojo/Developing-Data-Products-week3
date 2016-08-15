@@ -20,21 +20,6 @@ shinyUI(navbarPage("The autonomous car",
                                                                 3. In each graph, there is a color scale that facilitates the observation of differences between the categories of a variable.
                                                                 "))))
                                  
-#                                 plotOutput('plot1', height = "900px"), 
-              #                   
-             #                    hr(),
-            #                     
-           #                      
-          #                       fluidRow(
-         #                            column(5, offset = 1,
-        #                                    selectInput('y1', 'Knowledge autonomous car', c(levels(as.factor(dataset$Questions))[1]), 
-       #                                                 levels(as.factor(dataset$Questions))[1]
-      #                                      )),
-     #                                column(4,
-    #                                        selectInput('x1', 'Total or groups', c("Total", "Sex", "Age", 
-   #                                                                                "License and car"))
-  #                                   ),
- #                                    height = "1000px"    
                                  ))},
                    {tabPanel("The autonomous car ... is there? Does anyone is developing?",
     fluidPage(
